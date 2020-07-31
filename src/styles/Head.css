@@ -1,0 +1,17 @@
+h1 {
+    font-family: Andale Mono, monospace;
+    font-size: 3vh;     
+}
+
+.row {
+    padding-left: 20px auto;
+}
+
+* {
+    padding: 5px auto;
+    margin: 5px auto;
+}
+
+input {
+    width: 100%;
+}
