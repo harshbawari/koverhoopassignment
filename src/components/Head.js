@@ -36,7 +36,7 @@ class Head extends Component {
                         <input type="text" placeholder="Search Movie Here" name="searchMovie" id="searchMovie" onChange={this.handleChange}></input>
                     </div>
                     <div className="col-6 col-lg-1">
-                        <select value="category" id="category">
+                        <select>
                             <option>Movie</option>
                         </select>
                     </div>
