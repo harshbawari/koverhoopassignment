@@ -8,7 +8,7 @@ class Content extends Component{
         super(props);
 
         this.state = {
-            url: 'http://www.omdbapi.com/?apikey=efe412ef&',
+            url: 'https://www.omdbapi.com/?apikey=efe412ef&',
             loading: true,
             movieList: [],
             modalIsOpen: false,
