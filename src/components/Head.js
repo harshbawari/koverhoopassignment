@@ -28,12 +28,12 @@ class Head extends Component {
 
         return(
             <div className="container-fluid">
-                <div className="row d-flex headerSection">
+                <div className="row d-flex headerSection justify-content-center align-items-center">
                     <div className="col-3">
                         <h1>MovieSearcher</h1>
                     </div>
                     <div className="col-6 d-inline-block">
-                        <input type="text" placeholder="Search Movie Here" name="searchMovie" onChange={this.handleChange}></input>
+                        <input type="text" placeholder="Search Movie Here" name="searchMovie" id="searchMovie" onChange={this.handleChange}></input>
                     </div>
                     <div className="col-1">
                         <select value="category" id="category">

@@ -12,14 +12,11 @@ h1 {
     margin: 5px auto;
 }
 
-input {
+#searchMovie {
     width: 100%;
 }
 
 .headerSection {
     background-color: #ccd1d9;
-}
-
-.contentSection {
-    background-color: #ccd1d9;
+    border-radius: 4px auto;
 }

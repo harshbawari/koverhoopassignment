@@ -1,0 +1,11 @@
+.movieMedia {
+    background-color: #ccd1d9;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.movieDetails {
+    background-color: #ccd1d9;
+    font-family: Roboto, monospace;
+    font-size: 1.5vh;
+}
