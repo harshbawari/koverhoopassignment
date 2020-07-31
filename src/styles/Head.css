@@ -15,3 +15,11 @@ h1 {
 input {
     width: 100%;
 }
+
+.headerSection {
+    background-color: #ccd1d9;
+}
+
+.contentSection {
+    background-color: #ccd1d9;
+}

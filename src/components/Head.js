@@ -28,7 +28,7 @@ class Head extends Component {
 
         return(
             <div className="container-fluid">
-                <div className="row d-flex">
+                <div className="row d-flex headerSection">
                     <div className="col-3">
                         <h1>MovieSearcher</h1>
                     </div>
@@ -44,7 +44,7 @@ class Head extends Component {
                         <input className="btn btn-primary" type="submit" id="submitButton" value="Submit" onClick={this.handleSubmit}></input>
                     </div>
                 </div>
-                <div className="row d-flex">
+                <div className="row d-flex contentSection">
                     {this.state.canPass? <Content searchQuery={this.state.s} /> : <div> </div>}
                 </div>
             </div>
